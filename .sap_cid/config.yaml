@@ -1,12 +1,10 @@
 ---
-general:
-  buildTool: "mta"
-service:
-  buildToolVersion: "MBTJ11N16"
 stages:
   build:
-    source: "helloworldui5"
-    npmExecuteLint: false
+    steps:
+      - mtaBuild:
+          source: "helloworldui5"
+          buildToolVersion: "MBTJ21N22"
   malwareScan:
     scan: false
   release:
