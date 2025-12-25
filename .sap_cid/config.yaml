@@ -3,7 +3,7 @@ stages:
   build:
     buildTool: "mta"
     buildToolVersion: "MBTJ21N22"
-    source: "helloworldui5"
+    buildSource: "helloworldui5"
   malwareScan:
     scan: false
   release:
