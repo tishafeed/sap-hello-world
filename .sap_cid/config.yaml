@@ -1,7 +1,7 @@
 ---
 stages:
   build:
-    source: "helloworldui5"
+    source: "./helloworldui5"
     buildTool: "mta"
     buildDescriptor: "mta.yaml"
     buildToolVersion: "MBTJ21N22"
